@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html forms</title>
+    </head>
+    <body>
+        <form action="../ruf.html" rarget="_blank">
+            <h1 style="color:red">Personal Details</h1>
+            Name
+            <input type="text"/>
+            <br/>
+            <br/>
+            password
+            <input type="password"/>
+            <br/>
+            <br/>
+            E-mail id
+            <input type="email"/>
+            <br/>
+            <br/>
+            gender:
+            Male<input type="radio" name="gender"/>
+            Female<input type="radio" name="gender"/>
+            <br/>
+            <br/>
+            Contact
+            <input type="tel"/>
+            <br>
+            <br/>
+            <h1 style="color:red">Educational Qualification</h1>
+            <br/>
+            <br/>
+            Degree
+            <input placeholder="..Select Group.." list="DegreeGroup"/>
+            <datalist id="DegreeGroup">
+                <option>bsc</option>
+                <option>bca</option>
+                <option>imca</option>
+                <option>bcom</option>
+            </datalist>
+            <br/>
+            <br/>
+            Engineering
+            <input placeholder="..Select Group.." list="EngineeringGroup"/>
+            <datalist id="EngineeringGroup">
+                <option>cse</option>
+                <option>eee</option>
+                <option>ece</option>
+                <option>mechanical</option>
+                <option>civil</option>
+            </datalist>
+            <br/>
+            <br/>
+            hobbies:
+            Playing chess<input type="radio" name="hobbies"/>
+            Reading books<input type="radio" name="hobbies"/>
+            <br/>
+            <br/>
+            <h1 style="color:red">Address</h1>
+            <br/>
+            <br/>
+            <textarea row="50" cols="50"></textarea>
+            <br/>
+            <br/>
+            Attach Resume
+            <input type="file"/>
+            <br/>
+            <br/>
+            <input type="submit"/ style="background-color: red;">
+        </form>
+    </body>
+</html>

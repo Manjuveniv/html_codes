@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>variables in js</title>
+    </head>
+    <body>
+        <script>
+            /*console.log(num1)---- only var we can give anywhere but let and const not like that*/
+            console.log(n1)
+            var n1=10
+            console.log(n1)
+            var n2=20
+            document.write(n2)
+            var n3
+            console.log(n3)
+            var n1=100
+            console.log(n1)
+            let num1=1
+            console.log(num1)
+            let num2=10
+            console.log(num2)
+        /*  let num1 
+            console.log(num1) we cant take same var name multiple times in let, const but var possible*/
+            let num3
+            console.log(num3)
+            const s='a'
+            console.log(s)
+            /*const a
+            console.log(a)--not possible*/
+
+            /* -- within block level and out side block level variables accessibility
+            var both inside and outside but let, const within block only--*/
+            {
+                var x=10;
+                console.log(x)
+                let y=5;
+                console.log(y)
+                const z=1;
+                console.log(z)
+            }
+            console.log(x)
+           /* console.log(y)
+            console.log(z)---we cant access outside the block -- let,const--*/
+            /*
+            outputs
+
+            undefined
+            10
+            undefined
+            100
+            1
+            10
+            undefined
+            a
+            10
+            5
+            1
+            10
+            */
+            </script>
+    </body>
+</html>
